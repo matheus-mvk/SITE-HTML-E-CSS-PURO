@@ -75,13 +75,10 @@ main{
     }
     h1 {
         position: relative;
+        font-weight: 600;
         border: black solid 2px;
         margin: 2% 16%;
         
-    }
-    p {
-        
-        border: solid black 3px;
     }
 /*---------------FIM DA CONF---------------*/
 
@@ -100,11 +97,35 @@ main{
     margin: 2% 16%;
     border-radius: 10px;
 }
-    #skills ul {
-        background-color: #036E6E;
-        border: solid black 2px;
-        height: 15%;
-    }
+        #skills a {
+            display: inline-block;
+            text-decoration: none;
+            color: #FBFBFB;
+            list-style-type: none;
+            font-weight: 200;
+            font-size: 1.5em;
+            margin: 1% 7.4%;
+            border-radius: 8px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+            padding: 5px 20px;
+        }
+        .info {
+            position: absolute;
+            font-weight: 200;
+            font-size: 1em;
+            top: 30;
+            width: 50%;
+            height: 50%;
+            
+        }
+        a > p {
+            display: block;
+        }
+            a:active > p{
+                display: block;
+            }
+        
+
 
 /*---------------FIM DA CONF---------------*/
 
