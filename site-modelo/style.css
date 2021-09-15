@@ -11,5 +11,49 @@
 * {
     background-color: #05ADAD;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: normal;
+    margin: 0px;
+    padding: 0px;
+    
+} 
+body {
+    height: 1500px;
 }
+/*CONF MENU*/
+img {
+    display: inline-block;
+    border: 3px solid black;
+}
+#cabecalho {
+    border: 3px solid black;
+}
+    #menu {
+        display: inline-block;
+        border: 3px solid black;
+        padding: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: #FBFBFB;
+    }
+        #menu ul{
+            display: inline;
+            list-style-type: none;
+            background-color: #FBFBFB;
+            border: 3px solid black;
+            width: 50%;
+            height: 80%;
+            margin: 0;
+            
+        }
+            #menu ul li {
+                display: inline-block;
+                font-size: 16pt;
+                background-color: #FBFBFB;
+                font-weight: bold;
+                border: 3px solid black;
+                margin-right: 40px;
+                margin-left: 50px;
+
+                
+            }
