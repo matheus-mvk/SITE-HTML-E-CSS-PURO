@@ -13,45 +13,106 @@
     font-family:  Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: normal;
-    margin: 0px;
+    
     padding: 0px;
     
 } 
+body {
+    height: 900px;
+}
 /*----------MENU ---------- LOGO----------*/
 
 #logo {
     background-color: #FBFBFB;
     position: absolute;
-    left: 140px;
+    left: 16%;
 }
 header {
     border: solid 3px black;
-    height: 70px;
+    height: 9%;
     background-color: #FBFBFB;
 }
     header #menu {
         background-color: #FBFBFB;
-       
+        margin: 0% 2.5%;
         position: absolute;
-        left: 325px;
-        top: 18px;
+        left: 28%;
+        top: 4%;
     }
         header #menu a {
             background-color: #FBFBFB;
             color: black;
             text-decoration: none;
-            font-size: 18pt;
+            font-size: 1.55em;
+            border: solid black 1px;
             font-weight: normal;
-            margin: 45px 60px;
+            margin: 0% 59px;
         }
 /*---------------FIM DA CONF---------------*/
 
 
 /*-----------PRINCIPAL SOBRE VC------------*/
 
-h1 {
+/*IMAGE*/
+#minhafoto {
     position: relative;
     border: black solid 2px;
-    margin: 0px 140px;
-    
+    border-radius: 50%;
+    top: 0%;
+    left: 16%;
+}
+main{
+    border: black solid 2px;
+    height: 88%;
+}
+    article{
+        position: absolute;
+        border: black solid 2px;
+        left: 20%;
+        top: 33%;
+        height: 15%;
+        margin: 0% 16.5% 0% 9.5%;
+    }
+    h1 {
+        position: relative;
+        border: black solid 2px;
+        margin: 2% 16%;
+        
+    }
+    p {
+        
+        border: solid black 3px;
+    }
+/*---------------FIM DA CONF---------------*/
+
+
+
+
+/*-------PRINCIPAL CONHECIMENTOS-------*/
+#conhecimentos {
+    text-align: center;
+}
+#skills {
+    background-color: #036E6E;
+    position: relative;
+    border: black solid 2px;
+    height: 40%;
+    margin: 2% 16%;
+    border-radius: 10px;
+}
+    #skills ul {
+        background-color: #036E6E;
+        border: solid black 2px;
+        height: 15%;
+    }
+
+/*---------------FIM DA CONF---------------*/
+
+
+
+
+/*-------------FOOTER CONF--------------*/
+footer {
+    border: black solid 3px;
+    height: 4%;
 }
