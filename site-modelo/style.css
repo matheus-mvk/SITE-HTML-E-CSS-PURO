@@ -113,15 +113,16 @@ main{
             position: absolute;
             font-weight: 200;
             font-size: 1em;
-            top: 30;
-            width: 50%;
+            top: 30%;
+            left: 7%;
+            background-color: #036E6E;  
             height: 50%;
             
         }
-        a > p {
-            display: block;
+        a > .info {
+            display: none;
         }
-            a:active > p{
+            a:active > .info{
                 display: block;
             }
         
