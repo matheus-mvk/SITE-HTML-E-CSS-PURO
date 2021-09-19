@@ -13,11 +13,15 @@
     font-family:  Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: normal;
-    margin: 5px;
-    
+    margin: 0%;
+    padding: 0%;    
 } 
 body {
-    height: 1100px;
+    height: 990px;
+}
+p {
+    font-weight: 500;
+    font-size: 1.1em;
 }
 /*----------MENU ---------- LOGO----------*/
 
@@ -27,8 +31,7 @@ body {
     left: 16%;
 }
 header {
-    border: solid 3px black;
-    height: 9%;
+    height: 6.1%;
     background-color: #FBFBFB;
 }
     header #menu {
@@ -36,16 +39,15 @@ header {
         margin: 0% 2.5%;
         position: absolute;
         left: 28%;
-        top: 4%;
+        top: 3%;
     }
         header #menu a {
             background-color: #FBFBFB;
             color: black;
             text-decoration: none;
-            font-size: 1.55em;
-            border: solid black 1px;
             font-weight: normal;
-            margin: 0% 59px;
+            font-size: 1.55em;
+            margin: 0% 60px;
         }
 /*---------------FIM DA CONF---------------*/
 
@@ -55,27 +57,24 @@ header {
 /*IMAGE*/
 #minhafoto {
     position: relative;
-    border: black solid 2px;
     border-radius: 50%;
     top: 0%;
     left: 16%;
 }
 main{
-    border: black solid 2px;
-    height: 87%;
+    height: 90%;
 }
     article{
         position: absolute;
-        border: black solid 2px;
         left: 20%;
-        top: 33%;
+        top: 30%;
         height: 15%;
         margin: 0% 16.5% 0% 9.5%;
     }
     h1 {
         position: relative;
-        font-weight: 600;
-        border: black solid 2px;
+        font-weight: 500;
+        font-size: 2.1em;
         margin: 2% 16%;
         
     }
@@ -91,7 +90,6 @@ main{
 #skills {
     background-color: #036E6E;
     position: relative;
-    border: black solid 2px;
     height: 30%;
     margin: 2% 16%;
     border-radius: 10px;
@@ -108,29 +106,28 @@ main{
             box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
             padding: 5px 20px;
         }
-        #padrao{
+        a > #padrao{
             position: absolute;
-            font-weight: 200;
-            font-size: 1em;
             top: 40%;
             left: 7%;
+            width: 90%;
             background-color: #036E6E;  
             height: 50%;
+            font-size: 14pt;
         }
-        .info {
+        a > .info {
             position: absolute;
-            font-weight: 200;
-            font-size: 1em; 
             top: 40%;
+            width: 90%;
             left: 7%;
             background-color: #036E6E;  
             height: 50%;
-            
+            font-size: 14pt;
         }
         a > .info {
             display: none;
         }
-            a:active > .info{
+            a:hover > .info{
                 display: block;
             }
 
@@ -139,28 +136,45 @@ main{
 /*------------PRINCIPAL CONTATO------------*/
 
 #contato {
-    border: black solid 1px;
     height: 26%;
     margin: 2% 16%;
 }
+    #tcontato {
+        font-weight: bold;
+        font-size: 1.7em;
+        left: -13%;
+    }
+    #listc {
+        list-style-type: none;
+        position: relative;
+        top: -70%;
+        left: 14%;
+        width: 60%;
+    }
+    #listc li{
+        color: black;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 0px 0px 35px 0px;   
+    }
+    #listc li > a {
+        color: black;
+        text-decoration: none;
+    }
 
 /*-------------FOOTER CONF--------------*/
 footer {
-    border: black solid 1px;
     background-color: #FBFBFB;
-    height: 3.5%;
+    height: 4%;
 }
     #rdp {
-        border: black solid 1px;
         background-color: #FBFBFB;
         text-align: center;
         font-size: 1.3em;
         font-weight: 400;
-        margin: 0px;
     }
         #heart {
             display: inline-block;
-            border: black solid 1px;
             background-color: #FBFBFB;
-            margin: 0px;
+            
         }
