@@ -127,7 +127,7 @@ main{
         a > .info {
             display: none;
         }
-            a:hover > .info{
+            a:active > .info{
                 display: block;
             }
 
