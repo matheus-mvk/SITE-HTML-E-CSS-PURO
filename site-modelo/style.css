@@ -13,12 +13,11 @@
     font-family:  Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: normal;
-    
-    padding: 0px;
+    margin: 5px;
     
 } 
 body {
-    height: 900px;
+    height: 1100px;
 }
 /*----------MENU ---------- LOGO----------*/
 
@@ -63,7 +62,7 @@ header {
 }
 main{
     border: black solid 2px;
-    height: 88%;
+    height: 87%;
 }
     article{
         position: absolute;
@@ -93,7 +92,7 @@ main{
     background-color: #036E6E;
     position: relative;
     border: black solid 2px;
-    height: 40%;
+    height: 30%;
     margin: 2% 16%;
     border-radius: 10px;
 }
@@ -109,11 +108,20 @@ main{
             box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
             padding: 5px 20px;
         }
-        .info {
+        #padrao{
             position: absolute;
             font-weight: 200;
             font-size: 1em;
-            top: 30%;
+            top: 40%;
+            left: 7%;
+            background-color: #036E6E;  
+            height: 50%;
+        }
+        .info {
+            position: absolute;
+            font-weight: 200;
+            font-size: 1em; 
+            top: 40%;
             left: 7%;
             background-color: #036E6E;  
             height: 50%;
@@ -125,16 +133,34 @@ main{
             a:active > .info{
                 display: block;
             }
-        
-
 
 /*---------------FIM DA CONF---------------*/
 
+/*------------PRINCIPAL CONTATO------------*/
 
-
+#contato {
+    border: black solid 1px;
+    height: 26%;
+    margin: 2% 16%;
+}
 
 /*-------------FOOTER CONF--------------*/
 footer {
-    border: black solid 3px;
-    height: 4%;
+    border: black solid 1px;
+    background-color: #FBFBFB;
+    height: 3.5%;
 }
+    #rdp {
+        border: black solid 1px;
+        background-color: #FBFBFB;
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 400;
+        margin: 0px;
+    }
+        #heart {
+            display: inline-block;
+            border: black solid 1px;
+            background-color: #FBFBFB;
+            margin: 0px;
+        }
